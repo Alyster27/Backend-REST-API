@@ -2,9 +2,9 @@
   "name": "backend-rest-api",
   "version": "1.0.0",
   "description": "my default backend rest api",
-  "main": "srs/server.ts",
+  "main": "src/server.ts",
   "scripts": {
-    "serve": "nodemon srs/server.ts",
+    "serve": "nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
