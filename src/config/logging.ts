@@ -49,3 +49,10 @@ const debug = (namespace: string, message: string, object?: any) => {
             break;
     }
 }
+
+export default {
+    info,
+    warn,
+    error,
+    debug
+}
