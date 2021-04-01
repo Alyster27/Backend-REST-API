@@ -1,0 +1,35 @@
+{
+  "name": "backend-rest-api",
+  "version": "1.0.0",
+  "description": "my default backend rest api",
+  "main": "srs/server.ts",
+  "scripts": {
+    "serve": "nodemon srs/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alyster27/Backend-REST-API.git"
+  },
+  "author": "Errih Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alyster27/Backend-REST-API/issues"
+  },
+  "homepage": "https://github.com/Alyster27/Backend-REST-API#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/express": "^4.17.11",
+    "@types/helmet": "^4.0.0",
+    "@types/hpp": "^0.2.1",
+    "@types/jsonwebtoken": "^8.5.1",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
